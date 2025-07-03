@@ -1,0 +1,80 @@
+/* Base reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body.resume {
+    background-color: #f4f6f9;
+    color: #2c3e50;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Header */
+.name {
+    text-align: center;
+    color: #1e2a78;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+/* Profile picture */
+.profile-pic {
+    display: block;
+    margin: 0 auto 30px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #1e2a78;
+}
+
+/* Section styling */
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 22px;
+    color: #1e2a78;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1e2a78;
+    padding-bottom: 4px;
+}
+
+/* Lists */
+.info-list, .skill-list {
+    margin-left: 20px;
+}
+
+.info-list li,
+.skill-list li {
+    margin-bottom: 6px;
+}
+
+/* Education section */
+.edu-title {
+    color: #34495e;
+    margin: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .name {
+        font-size: 28px;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+}
