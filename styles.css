@@ -1,12 +1,67 @@
-*{
-    background-color: pink;
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
 }
-h1{
-    text-align: center;
-    text-decoration: underline;
 
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
 }
-.underline{
-    text-decoration: underline;
-    
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+#myphoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3498db;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 5px solid #3498db;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings */
+.underline {
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #2980b9;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+    color: #888;
 }
